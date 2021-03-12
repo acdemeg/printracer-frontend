@@ -1,0 +1,42 @@
+#navbar {
+    height: 50px;
+    background-color: #ccc;
+
+    #navbar__statistics {
+        float: left;
+        height: inherit;
+        width: 500px;
+        background-color: cadetblue;
+        margin-left: 30px;
+        top: 4px;
+    }
+
+    #navbar__login {
+        float: right;
+        height: inherit;
+        width: 400px;
+        background-color: #ff7f50;
+    }
+
+    .gametype {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: right;
+        padding: 0 10px 2px 0;
+    }
+
+    td.title {
+        padding: 0 3px 0 5px;
+        text-align: right;
+    }
+
+    td.value {
+        padding-right: 7px;
+        color: white;
+        font-weight: bold;
+
+    }
+}
+
+
+
