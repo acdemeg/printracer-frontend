@@ -1,0 +1,150 @@
+.user-dropdown {
+  border-left: 1px solid #8f8f8f;
+  height: 44px;
+  padding: 0;
+  position: relative;
+  font-family: arial, sans-serif;
+  outline: 0;
+
+  .name {
+    cursor: pointer;
+    display: inline-block;
+    height: 44px;
+    padding-left: 20px;
+    padding-top: 11px;
+    padding-right: 10px;
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px 0 #888;
+    border-right: 1px solid transparent;
+
+    img {
+      margin-right: 4px;
+      border-radius: 3px;
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
+    }
+
+    span {
+      vertical-align: middle;
+    }
+
+    .caret {
+      display: inline-block;
+      margin-left: 5px;
+      width: 0;
+      height: 0;
+      border-top: 4px solid white;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      vertical-align: middle;
+    }
+
+  }
+
+  .dropmenu {
+    z-index: 110;
+    width: 300px;
+    height: 250px;
+    background: white;
+    position: absolute;
+    top: 46px;
+    right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #ccc;
+    border-top: 0;
+
+    .col1 {
+      float: left;
+      width: 180px;
+      height: 250px;
+      padding: 10px 15px;
+
+      ul li {
+        margin-bottom: 20px;
+      }
+
+      a.btn {
+        display: inline-block;
+        padding: 5px 10px;
+        text-align: center;
+        cursor: pointer;
+        border: 1px solid #357ebd;
+        border-radius: 3px;
+        white-space: nowrap;
+        color: #ffffff;
+        background-color: #428bca;
+        font-weight: bold;
+        font-size: 13px;
+        text-decoration: none;
+        margin: 0 0 0 -5px;
+      }
+
+      ul li.unread_mail a {
+        background: transparent url(/public/images/userpanel/mail_small.png) no-repeat 5px 5px;
+        padding-left: 26px;
+      }
+
+      .note {
+        color: #888;
+      }
+
+      ul li.logout {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 5px;
+
+       a {
+          background: transparent url(/public/images/userpanel/off.png) no-repeat 5px 6px;
+          padding-left: 24px;
+        }
+
+      }
+
+
+    }
+
+    .col2 {
+      float: left;
+      width: 118px;
+      height: 250px;
+      padding-top: 10px;
+
+      ul {
+        border-left: 1px solid #eee;
+
+        li a {
+          padding-left: 10px;
+          display: block;
+          text-decoration: none;
+          font-size: 14px;
+          line-height: 2;
+        }
+
+      }
+
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      height: 100%;
+
+     li {
+        text-align: left;
+      }
+
+    }
+
+  }
+
+  .drop-btn:hover {
+    background: transparent url(/public/images/userpanel/userpanel_back_highlight.png) repeat-x;
+  }
+
+}

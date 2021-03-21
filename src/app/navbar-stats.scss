@@ -1,0 +1,29 @@
+#stats-block {
+  position: absolute;
+  left: 30px;
+  top: 4px;
+
+  td.title {
+    padding: 0 3px 0 5px;
+    text-align: right;
+    font-size: 11px;
+  }
+
+  td.value {
+    padding-right: 7px;
+  }
+
+  .value {
+    color: white;
+    font-weight: bold;
+  }
+
+}
+
+.gametype {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: right;
+  padding: 0 10px 2px 0;
+
+}

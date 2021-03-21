@@ -1,41 +1,29 @@
-#navbar {
-    height: 50px;
-    background-color: #ccc;
+.userpanel {
+    border-bottom: 1px solid #737373;
+    width: 100%;
+    background: #aaa url(/public/images/userpanel_back.gif) repeat-x;
+    position: relative;
+    color: #333;
+    min-width: 990px;
+    z-index: 110;
+    box-sizing: border-box;
 
-    #navbar__statistics {
-        float: left;
-        height: inherit;
-        width: 500px;
-        background-color: cadetblue;
-        margin-left: 30px;
-        top: 4px;
+    .divider {
+        background: transparent url(/public/images/userpanel_divider.gif) no-repeat 0 0;
+        width: 3px;
     }
 
-    #navbar__login {
-        float: right;
-        height: inherit;
-        width: 400px;
-        background-color: #ff7f50;
-    }
+    @import "navbar-stats";
+    @import "navbar-user";
+    @import "user-dropdown";
+}
 
-    .gametype {
-        font-size: 18px;
-        font-weight: bold;
-        text-align: right;
-        padding: 0 10px 2px 0;
-    }
+.userpanel.logged {
+    height: 45px;
+}
 
-    td.title {
-        padding: 0 3px 0 5px;
-        text-align: right;
-    }
-
-    td.value {
-        padding-right: 7px;
-        color: white;
-        font-weight: bold;
-
-    }
+.userpanel * {
+    box-sizing: border-box;
 }
 
 
