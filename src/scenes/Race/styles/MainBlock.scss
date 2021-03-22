@@ -4,14 +4,14 @@
   width: 740px;
 }
 
-#typeblock, .chat-content {
-  background: #ebebeb;
-}
-
 #typeblock {
   margin: 0;
   width: 740px;
   position: relative;
+}
+
+#typeblock, .chat-content {
+  background: #ebebeb;
 }
 
 .gameblock .rc .handle {
@@ -171,6 +171,14 @@ a {
   border-bottom: 1px dashed #144E9D;
   cursor: pointer;
 }
+
+.disabled {
+  background-color: white;
+  border: 1px solid #ccc;
+  color: #ccc;
+}
+
+
 
 
 

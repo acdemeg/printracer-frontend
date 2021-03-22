@@ -125,15 +125,6 @@
   padding-bottom: 15px;
 }
 
-.car td, .car th {
-  padding: 0;
-  vertical-align: bottom;
-}
-
-.award3 {
-  background-position: -20px;
-}
-
 .award {
   width: 10px;
   height: 10px;
@@ -143,19 +134,23 @@
   background: white url(/public/images/awards-5.gif) no-repeat 0 0;
 }
 
-.nick_content {
-  position: relative;
+.award3 {
+  background-position: -20px;
 }
 
-.rang4, a.rang4, a.rang4:visited {
-  color: #8c8100 !important;
-  border-color: #8c8100 !important;
+.nick_content {
+  position: relative;
 }
 
 .name_content a, .name_content a:visited {
   text-decoration: none;
   color: #144E9D !important;
   border-bottom: 1px dotted #144E9D !important;
+}
+
+.rang4, a.rang4, a.rang4:visited {
+  color: #8c8100 !important;
+  border-color: #8c8100 !important;
 }
 
 .car .imgcont {

@@ -6,8 +6,6 @@ import PlayersBlock from "./PlayersBlock";
 const GameBlock = () => {
     return (
         <div id="play-overall">
-
-
             <table cellSpacing="0" cellPadding="0">
                 <tbody>
                 <tr>
@@ -27,14 +25,15 @@ const GameBlock = () => {
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <div id="sortable">
-                                <StatusBlock/>
-                                <MainBlock/>
-                                <PlayersBlock/>
-                                <div className="gameblock" id="chat-block"
-                                     style={{position: "relative"}}/>
-                            </div>
+                        <div id="sortable">
+                            <StatusBlock/>
+                            <MainBlock/>
+                            <PlayersBlock/>
+                            <div className="gameblock" id="chat-block"
+                                 style={{position: "relative"}}>
+                        </div>
                         </div>
                     </td>
                 </tr>
