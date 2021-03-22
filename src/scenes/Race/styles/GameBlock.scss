@@ -2,3 +2,42 @@
   margin-left: 0;
 }
 
+.play-overall-table td {
+  padding: 0;
+  vertical-align: top;
+}
+
+#gameloading {
+  background: #eee url(/public/images/gray_back.gif) no-repeat 0 0;
+  width: 230px;
+}
+
+.r.tl {
+  background: url(/public/images/additional/tl.png) no-repeat 0 0;
+}
+
+.r .tr {
+  background: url(/public/images/additional/tr.png) no-repeat 100% 0;
+}
+
+.r .bl {
+  background: url(/public/images/additional/bl.png) no-repeat 0 100%;
+}
+
+.r .br {
+  background: url(/public/images/additional/br.png) no-repeat 100% 100%;
+}
+
+#gameloading .rc {
+  padding: 20px;
+}
+
+#gameloading .gameloading-content {
+  font-size: 24px;
+  color: #d60;
+  background: transparent url(/public/images/loading.gif) no-repeat left;
+  padding: 20px 60px;
+}
+
+
+

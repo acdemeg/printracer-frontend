@@ -2,7 +2,10 @@ import React from 'react';
 
 const SettingsBlock = () => {
     return (
-        <div id="play-right" className="with-ads"/>
+        <div
+            id="play-right"
+            className="with-ads"
+        />
     );
 
 }

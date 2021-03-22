@@ -1,0 +1,137 @@
+.gameblock#status-block .handle {
+  background: transparent;
+  width: 40px;
+  height: 100px;
+}
+
+.gameblock .handle {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  z-index: 100;
+  cursor: move;
+  background: transparent url(/public/images/dragdrop.gif) no-repeat 0 0;
+}
+
+#speedpanel {
+  background: white url(/public/images/panel800.gif) no-repeat 100% 0;
+  position: relative;
+}
+
+#speedpanel-canvas {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#speedpanel #speed-label {
+  position: absolute;
+  width: 30px;
+  right: 160px;
+  top: 63px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  z-index: 100;
+}
+
+#speedpanel #errors-label {
+  position: absolute;
+  width: 47px;
+  right: 47px;
+  top: 40px;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+#status.ready {
+  background-position: 0 -90px;
+}
+
+#status {
+  font-size: 14px;
+  padding: 0 0 0 50px;
+  height: 90px;
+  text-align: left;
+  background: transparent url(/public/images/semaphore.png) no-repeat 0 0;
+}
+
+#status table {
+  height: 90px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 400px;
+}
+
+#status table .gametype-sign-wrapper {
+  padding-right: 15px;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+
+#status table td {
+  height: 34px;
+}
+
+.play-overall-table td {
+  padding: 0;
+  vertical-align: top;
+}
+
+.sign-normal.active {
+  background-position: 0 -48px;
+}
+
+.gametype-sign {
+  display: block;
+  width: 48px;
+  height: 48px;
+  background: url(/public/images/gametype_signs.png) no-repeat 0 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+#status table td#gamedesc {
+  vertical-align: bottom;
+  padding-bottom: 4px;
+}
+
+#gamedesc {
+  text-align: left;
+  color: black !important;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.gametype-normal {
+  color: #000 !important;
+}
+
+#status table td#status-inner {
+  vertical-align: top;
+  padding-top: 1px;
+}
+
+#racing_time, #waiting_timeout {
+  font-family: Helvetica, serif;
+  font-size: 1.4em;
+}
+
+#racing_time, #waiting_timeout {
+  font-family: Helvetica, serif;
+  font-size: 1.4em;
+}
+
+
+
+
+
+
+
+
+
+
+

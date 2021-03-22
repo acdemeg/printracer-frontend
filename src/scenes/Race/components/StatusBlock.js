@@ -7,6 +7,7 @@ const StatusBlock = () => {
             <div className="handle">
                 <img src="/public/images/blank.gif" alt=""/>
             </div>
+
             <div id="speedpanel">
                 <canvas width="262" height="91" id="speedpanel-canvas"/>
                 <div id="speed-label"/>
@@ -44,8 +45,8 @@ const StatusBlock = () => {
                                 </div>
                                 <div id="racing"
                                      style={{display: "none"}}>
-                                                                                                <span className="bitmore"
-                                                                                                      id="racing_time">&nbsp;</span>
+                                <span className="bitmore"
+                                      id="racing_time">&nbsp;</span>
                                 </div>
                                 <div id="paused"
                                      style={{display: "none"}}>

@@ -1,0 +1,260 @@
+#players-count-lbl {
+  clear: both;
+  font-size: 20px;
+  float: left;
+  position: relative;
+  top: 15px;
+  z-index: 105;
+}
+
+.gameblock .people {
+  position: relative;
+  height: 30px;
+  z-index: 100;
+  margin-left: 50px;
+}
+
+#players {
+  padding: 10px 0 10px 0;
+  background-color: white;
+  overflow: hidden;
+}
+
+.you {
+  font-weight: bold;
+}
+
+.player {
+  width: 740px;
+  height: 72px;
+  padding: 10px;
+  position: relative;
+  background: white url(/public/images/finish.gif) repeat-y right;
+}
+
+#play-overall #players .player .newrecord {
+  position: absolute !important;
+  left: 160px;
+  z-index: 51;
+  margin: 0 !important;
+  font-size: 13px;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide {
+  display: none !important;
+}
+
+#play-overall #players .player .newrecord a {
+  position: relative;
+  margin-right: 10px;
+  font-weight: bold;
+  color: red;
+  text-decoration: none;
+  border-bottom: 1px dashed red;
+}
+
+#play-overall #players .player .newrecord a.nopost {
+  cursor: default;
+  border-bottom: 0;
+}
+
+#play-overall #players .player .newrecord a.typestats {
+  display: inline-block;
+  padding-left: 23px;
+  font-size: 9px;
+  line-height: 16px;
+  color: #1fa81f;
+  background: transparent url(/public/images/typestats.png) no-repeat 0 0;
+  border-bottom: 0;
+  transition: none !important;
+}
+
+.player .rating {
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+  font-size: 16px;
+  font-weight: normal;
+  z-index: 50;
+}
+
+#rating_loading {
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 5px 0 5px 50px;
+  background: transparent url(/public/images/gray_loading.gif) no-repeat 0 50%;
+  color: #aaa;
+}
+
+.car {
+  position: relative;
+  left: 0;
+  border-spacing: 0;
+}
+
+.car .name {
+  width: 115px;
+  text-align: right;
+  padding-right: 5px;
+  white-space: nowrap;
+}
+
+.car td, .car th {
+  padding: 0;
+  vertical-align: bottom;
+}
+
+.name_content {
+  overflow: hidden;
+  padding-bottom: 1px;
+  width: 115px;
+}
+
+.name_content table {
+  width: 0;
+  margin: 0 0 0 auto;
+}
+
+.player .name_content .top-award {
+  position: relative;
+  font-size: 11px;
+  font-weight: normal;
+  padding-bottom: 15px;
+}
+
+.car td, .car th {
+  padding: 0;
+  vertical-align: bottom;
+}
+
+.award3 {
+  background-position: -20px;
+}
+
+.award {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 0px;
+  top: 1px;
+  background: white url(/public/images/awards-5.gif) no-repeat 0 0;
+}
+
+.nick_content {
+  position: relative;
+}
+
+.rang4, a.rang4, a.rang4:visited {
+  color: #8c8100 !important;
+  border-color: #8c8100 !important;
+}
+
+.name_content a, .name_content a:visited {
+  text-decoration: none;
+  color: #144E9D !important;
+  border-bottom: 1px dotted #144E9D !important;
+}
+
+.car .imgcont {
+  overflow: hidden;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  transition: opacity 0.5s;
+}
+
+.car .car-base_4 {
+  background-position: -500px 0;
+}
+
+.car .car43 {
+  background: white url(/public/images/cars/43-3.png) no-repeat;
+}
+
+.car .img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 50px;
+  border: 0;
+}
+
+.car .car-tuning {
+  background-color: transparent;
+}
+
+.car .car-tuning1_2 {
+  background-position: -200px -50px;
+}
+
+.car .car-tuning2_4 {
+  background-position: -400px -100px;
+}
+
+.car .car-tuning3_8 {
+  background-position: -800px -150px;
+}
+
+.car .car-tuning4_ {
+  background: transparent;
+}
+
+.car .car-tuning5_2 {
+  background-position: -200px -250px;
+}
+
+.car .car-tuning6_3 {
+  background-position: -300px -300px;
+}
+
+.car .car-tuning7_ {
+  background: transparent;
+}
+
+.car .car-tuning8_ {
+  background: transparent;
+}
+
+.car .car-tuning9_ {
+  background: transparent;
+}
+
+.car .car-tuning10_ {
+  background: transparent;
+}
+
+.car .car-tuning11_ {
+  background: transparent;
+}
+
+.car .car-tuning12_ {
+  background: transparent;
+}
+
+.car .car-tuning13_ {
+  background: transparent;
+}
+
+.player .divider {
+  background: #ca0 url(/public/images/divider.gif) repeat-x;
+  width: 720px;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+}
+
+.gameblock .people {
+  position: relative;
+  height: 30px;
+  z-index: 100;
+  margin-left: 50px;
+}
+
+
+

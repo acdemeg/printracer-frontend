@@ -40,16 +40,15 @@ const PlayersBlock = () => {
                     <div className="newrecord" id="newrecord0"
                          style={{display: "none"}}><span
                         className="ng-hide">
-                                                                            <a
-                                                                                className="ng-hide">Рекорд!</a>
-                                                                                <a
-                                                                                    className="nopost">Рекорд!</a>
-                                                                                 </span>
+                    <a
+                        className="ng-hide">Рекорд!</a>
+                        <a
+                            className="nopost">Рекорд!</a>
+                         </span>
                         <a
                             className="ng-hide">Достижение!
                         </a>
                         <a
-
                             className="typestats ng-hide">ПОДТВЕРЖДЕНО
                         </a>
                     </div>
@@ -75,16 +74,20 @@ const PlayersBlock = () => {
                                         </tr>
                                         <tr>
                                             <th>
-                                                <img src="http://klavogonki.ru/storage/avatars/376326_big.png?updated=1579002588"/>
+                                                <img
+                                                    src="http://klavogonki.ru/storage/avatars/376326_big.png?updated=1579002588"/>
                                             </th>
                                             <td>
                                                 <div
                                                     className="nick_content">
                                                     <a href="/profile/376326/"
                                                        className="rang4 profile"
-                                                       onMouseMove={() => {}}
-                                                       onMouseOver={() => {}}
-                                                       onMouseOut={() => {}}>acdemeg</a>
+                                                       onMouseMove={() => {
+                                                       }}
+                                                       onMouseOver={() => {
+                                                       }}
+                                                       onMouseOut={() => {
+                                                       }}>acdemeg</a>
                                                 </div>
                                             </td>
                                         </tr>
@@ -154,7 +157,8 @@ const PlayersBlock = () => {
                     style={{position: "absolute", right: "53px", bottom: "15px", zIndex: "-15"}}
                     src="/public/images/people/b7.png"/>
             </div>
-
+            <div className="gameblock" id="chat-block"
+                 style={{position: "relative"}}/>
         </div>
     );
 }

@@ -1,0 +1,181 @@
+.gameblock {
+  text-align: left;
+  margin: 15px 0;
+  width: 740px;
+}
+
+#typeblock, .chat-content {
+  background: #ebebeb;
+}
+
+#typeblock {
+  margin: 0;
+  width: 740px;
+  position: relative;
+}
+
+.gameblock .rc .handle {
+  background: transparent url(/public/images/dragdrop.gif) no-repeat 0 0 !important;
+}
+
+#typetext {
+  text-decoration-skip-ink: none;
+}
+
+#typeblock #hiddentext {
+  text-align: center;
+  background-color: #aaa;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #888;
+}
+
+#fixtypo {
+  position: absolute;
+  top: 0;
+  color: red;
+  font-size: 15px;
+}
+
+#inputtext {
+  clear: both;
+  font-size: 25px;
+  width: 710px;
+  margin-top: 19px;
+  border-width: 1px;
+  background-color: white;
+  box-shadow: 0 0 15px #fff;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+}
+
+#keyboard_cont {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#keyboard {
+  margin: 0 auto 0 auto;
+  position: relative;
+  width: 546px;
+  clear: both;
+}
+
+#back_keyboard {
+  background: url(/public/images/back_keyboard.gif);
+  position: relative;
+  width: 546px;
+  height: 202px;
+}
+
+#fore_keyboard {
+  background: transparent url(/public/images/fore_keyboard.gif);
+  position: absolute;
+  left: 115px;
+  top: 8px;
+  background-position: -115px -8px;
+  width: 35px;
+  height: 30px;
+}
+
+#shift_keyboard {
+  position: absolute;
+  background: transparent url(/public/images/shift_keyboard.gif);
+  width: 546px;
+  height: 172px;
+}
+
+#typeblock a#param_keyboard {
+  border-bottom: 1px dashed;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+#typeblock a {
+  border-bottom: 1px dashed black;
+  text-decoration: none;
+}
+
+#typeblock #bookinfo {
+  font-size: 15px;
+  color: #777;
+  padding: 0 10px;
+  text-align: center;
+}
+
+
+#typeblock #replay {
+  font-size: 16px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#report {
+  text-align: left;
+  padding: 5px 0 0 0;
+  float: left;
+}
+
+input, textarea {
+  padding: 1px 3px 1px 3px;
+}
+
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+#report a {
+  text-decoration: none;
+  border-bottom: 1px dashed #144E9D;
+  margin-right: 8px;
+}
+
+.bitmore {
+  font-size: 1.1em;
+}
+
+a {
+  color: #144E9D;
+}
+
+#errorwork {
+  float: right;
+  padding: 5px 0 0 0;
+  text-align: right;
+}
+
+#errorwork a {
+  text-decoration: none;
+  border-bottom: 1px dashed #2a0;
+  color: #2a0;
+}
+
+#errors_tab {
+  margin: 0 auto;
+  width: 200px;
+  height: 24px;
+  background: #f9f5e9 url(/public/images/errors_tab.gif) no-repeat 0 0;
+  color: #144E9D;
+  padding: 3px 0 0 0;
+  text-align: center;
+}
+
+#errors_tab a {
+  text-decoration: none;
+  border-bottom: 1px dashed #144E9D;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
