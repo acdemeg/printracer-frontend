@@ -1,0 +1,56 @@
+#head {
+  position: relative;
+
+  #logo {
+    padding: 13px 0 13px 30px;
+    float: left;
+  }
+
+  .right {
+    text-align: right;
+    position: relative;
+    padding: 20px 0 0 0;
+
+    .menu {
+      margin: 15px 10px 0 0;
+
+      a {
+        color: #46810b;
+        font-size: 14px;
+        float: right;
+        position: relative;
+        display: block;
+        width: 91px;
+        height: 35px;
+        text-align: center;
+        margin-right: 0;
+      }
+
+    }
+
+  }
+
+}
+
+#head.green-back {
+  background: white url(/public/images/top_back.gif) repeat-x 0 0;
+}
+
+.minwidth {
+  min-width: 910px;
+}
+
+.login-block {
+  color: #888;
+  padding: 0 33px 0 0;
+}
+
+.bar {
+  clear: both;
+  width: 100%;
+  background: transparent url(/public/images/graydots2.gif) repeat-x;
+  height: 3px;
+}
+
+
+
