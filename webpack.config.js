@@ -18,7 +18,8 @@ module.exports = (env = {}) => {
     const getPlugins = () => {
         const plugins = [
             new HtmlWebpackPlugin({
-                template: "public/index.html"
+                template: "public/index.html",
+                favicon: "public/favicon.png"
             })];
 
         if(isProd){

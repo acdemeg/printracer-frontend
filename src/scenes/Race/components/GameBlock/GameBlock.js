@@ -1,7 +1,7 @@
 import React from 'react';
-import StatusBlock from "./StatusBlock";
-import MainBlock from "./MainBlock";
-import PlayersBlock from "./PlayersBlock";
+import StatusBlockContainer from "./components/StatusBlock/StatusBlockContainer";
+import MainBlock from "./components/MainBlock/MainBlock";
+import PlayersBlockContainer from "./components/PlayersBlock/PlayersBlockContainer";
 
 const GameBlock = () => {
     return (
@@ -28,9 +28,9 @@ const GameBlock = () => {
                         </div>
 
                         <div id="sortable">
-                            <StatusBlock/>
+                            <StatusBlockContainer/>
                             <MainBlock/>
-                            <PlayersBlock/>
+                            <PlayersBlockContainer/>
                             <div className="gameblock" id="chat-block"
                                  style={{position: "relative"}}>
                         </div>

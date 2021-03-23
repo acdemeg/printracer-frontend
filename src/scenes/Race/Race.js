@@ -1,6 +1,6 @@
 import React from 'react';
-import SettingsBlock from "./components/SettingsBlock";
-import GameBlock from "./components/GameBlock";
+import SettingsBlock from "./components/GameBlock/components/SettingsBlock";
+import GameBlock from "./components/GameBlock/GameBlock";
 import "./Race.scss"
 
 const Race = () => {
