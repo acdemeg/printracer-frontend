@@ -4,7 +4,8 @@ const KeyboardBlock = () => {
     return (
         <div id="keyboard_cont">
             <div id="keyboard"
-                 style={{display: "none"}}>
+                 // style={{display: "none"}}
+                >
                 <div id="back_keyboard">
                     <div id="fore_keyboard"
                          style={{display: "none"}}>
