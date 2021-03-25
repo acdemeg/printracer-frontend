@@ -29,7 +29,3 @@ const Race = () => {
 }
 
 export default Race;
-
-
-
-

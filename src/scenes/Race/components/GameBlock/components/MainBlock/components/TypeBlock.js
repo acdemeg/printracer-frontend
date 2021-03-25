@@ -1,5 +1,4 @@
 import React from 'react';
-import InputTextBlock from "./InputTextBlock";
 import TypePlayBlock from "./TypePlayBlock";
 import KeyboardBlock from "./KeyboardBlock";
 
@@ -12,7 +11,7 @@ const TypeBlock = () => {
                         <div className="br">
                             <div className="rc">
                                 <div className="handle">
-                                    <img src="/public/images/blank.gif"/>
+                                    <img src="/public/images/blank.gif" alt="blank"/>
                                 </div>
                                 <TypePlayBlock />
                                 <KeyboardBlock />

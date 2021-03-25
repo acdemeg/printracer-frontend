@@ -1,18 +1,16 @@
 import React from 'react';
+import { withMockService } from 'root/app/components/hoc/index'
+import { connect } from "react-redux";
 
-const KeyboardBlock = () => {
+const KeyboardBlock = ({ highlightButtonPositions, mockService, nextSymbolEntered }) => {
+
     return (
         <div id="keyboard_cont">
-            <div id="keyboard"
-                 // style={{display: "none"}}
-                >
-                <div id="back_keyboard">
+            <div id="keyboard">
+                <div id="back_keyboard" onClick={()=>nextSymbolEntered(mockService.getButtonPositions())}>
                     <div id="fore_keyboard"
-                         style={{display: "none"}}>
-                        <div
-                            id="shift_keyboard"
-                            style={{display: "none"}}>
-                        </div>
+                         style={highlightButtonPositions}>
+                        <div id="shift_keyboard" style={{ display: "none" }}/>
                     </div>
                 </div>
             </div>
@@ -21,4 +19,21 @@ const KeyboardBlock = () => {
     );
 }
 
-export default KeyboardBlock;
+const mapStateToProps = ({ highlightButtonPositions }) => {
+    return { highlightButtonPositions };
+}
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        nextSymbolEntered: (buttonPositions) => {
+            dispatch({
+                type: 'NEXT_SYMBOL_ENTERED',
+                payload: buttonPositions
+            })
+        }
+    };
+}
+
+export default withMockService()(
+    connect(mapStateToProps, mapDispatchToProps)(KeyboardBlock)
+);

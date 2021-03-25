@@ -8,7 +8,7 @@ const PlayersBlockContainer = () => {
         <div className="gameblock" id="players-block"
              style={{position: "relative"}}>
             <div className="handle">
-                <img src="/public/images/blank.gif"/>
+                <img src="/public/images/blank.gif" alt="blank"/>
             </div>
             <div id="players-count-lbl">
                 <span>1 участник</span>

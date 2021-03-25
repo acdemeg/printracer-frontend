@@ -14,4 +14,5 @@ const withMockService = () => (Wrapped) => {
     );
 }
 
-export default withMockService;
+export default withMockService
+;

@@ -13,12 +13,13 @@ const StatusBlockContainer = () => {
                 <canvas width="262" height="91" id="speedpanel-canvas"/>
                 <div id="speed-label"/>
                 <div id="errors-label"/>
-                <img id="speedpanel-back" src="/public/images/panel800.gif"
+                <img id="speedpanel-back"  alt="speedpanel-back"
+                     src="/public/images/panel800.gif"
                      style={{position: "absolute", left: "-1000px"}}/>
-                <img id="speedpanel-top"
+                <img id="speedpanel-top" alt="speedpanel-top"
                      src="/public/images/speedpanel_top.png"
                      style={{position: "absolute", left: "-1000px"}}/>
-                <img id="speedpanel-arrow"
+                <img id="speedpanel-arrow" alt="speedpanel-arrow"
                      src="/public/images/speedpanel_arrow.png"
                      style={{position: "absolute", left: "-1000px"}}/>
                      <StatusBlock />

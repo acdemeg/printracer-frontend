@@ -27,7 +27,7 @@ const PlayersBlock = () => {
                     </tbody>
                 </table>
                 <div className="divider">
-                    <img src="/public/images/blank.gif"/>
+                    <img src="/public/images/blank.gif" alt="divider"/>
                 </div>
             </div>
         </div>

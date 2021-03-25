@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
-import GameList from "../scenes/GameList/GameList";
+import GameList from "root/scenes/GameList/GameList";
 import Navigation from "./components/Navbar/Navigation";
 import './app.scss';
-import Race from "../scenes/Race/Race";
+import Race from "root/scenes/Race/Race";
 import Header from "./components/Header/Header";
 
 

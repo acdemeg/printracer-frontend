@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const path = require("path");
 
 module.exports = (env = {}) => {
 
@@ -84,6 +85,12 @@ module.exports = (env = {}) => {
 
         devServer: {
             open: true
+        },
+
+        resolve: {
+            alias: {
+                root: path.resolve(__dirname, './src')
+            }
         }
     }
 };
