@@ -25,3 +25,7 @@
 .userpanel * {
     box-sizing: border-box;
 }
+
+.userpanel .user-block .user-dropdown .drop-btn:hover {
+    background: transparent url(/public/images/userpanel/userpanel_back_highlight.png) repeat-x;
+}
